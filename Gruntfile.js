@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 
         shell: {
             build_docs: {
-                command: '.venv/bin/python -msphinx -Ea seonu seonu/_build/html'
+                command: 'python -m sphinx -Ea seonu seonu/_build/html'
             }
         },
 
