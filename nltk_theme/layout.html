@@ -16,7 +16,7 @@
   <link rel="index" title="{{ _('Index') }}" href="{{ pathto('genindex') }}"/>
   {%- endif %}
 
-  <link rel="stylesheet" href="{{ pathto('_static/css/insegel.css', 1) }}"/>
+  <link rel="stylesheet" href="{{ pathto('_static/css/nltk_theme.css', 1) }}"/>
   <link rel="stylesheet" href="{{ pathto('_static/css/custom.css', 1) }}"/>
 
   <script type="text/javascript" id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
@@ -51,9 +51,6 @@
     <div id="content-container">
 
       <div id="main-content-container">
-        <div id="main-content-header">
-          <h1>{{ title }}</h1>
-        </div>
         <div id="main-content" role="main">
           {% block body %}{% endblock %}
         </div>

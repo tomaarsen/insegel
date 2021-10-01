@@ -8,10 +8,10 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         project: {
-            app: 'insegel',
+            app: 'nltk_theme',
             assets: '<%= project.app %>/static',
             css: [
-                'scss/insegel.scss'
+                'scss/nltk_theme.scss'
             ]
         },
 
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    '<%= project.assets %>/css/insegel.css': '<%= project.css %>'
+                    '<%= project.assets %>/css/nltk_theme.css': '<%= project.css %>'
                 }
             },
             dist: {
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    '<%= project.assets %>/css/insegel.css': '<%= project.css %>'
+                    '<%= project.assets %>/css/nltk_theme.css': '<%= project.css %>'
                 }
             }
         },
