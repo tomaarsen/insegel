@@ -44,7 +44,7 @@ a:hover:not(.headerlink) {
 }
 
 p {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 em {
@@ -79,7 +79,7 @@ pre {
     font-family: $monospace-font-stack;
     background-color: $accent-background;
     color: $accent-foreground;
-    padding: 2em;
+    padding: 1em 2em;
     margin-bottom: 1em;
 }
 
@@ -123,4 +123,18 @@ code {
 table tbody tr:nth-of-type(odd) code {
     background-color: $primary-background;
     color: $primary-foreground;
+}
+
+/* The [source] and [docs] tags */
+.viewcode-link,
+.viewcode-back {
+    float: right;
+}
+
+.viewcode-block:target {
+    // margin: -1px -3px;
+    // padding: 0 3px;
+    background-color: wheat;
+    // border-top: 1px solid #ac9;
+    // border-bottom: 1px solid #ac9;
 }

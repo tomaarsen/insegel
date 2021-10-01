@@ -1,39 +1,47 @@
-dl:not(.docutils) {
-    dd {
-        margin-left: 2em;
+dd {
+    margin-left: 2em;
 
-        dl {
-            margin-bottom: 1em;
-        }
+    // dl {
+    //     margin-bottom: 0.5em;
+    // }
+}
+
+dt {
+    // background: $secondary-background;
+    // color: $secondary-foreground;
+    padding: 0.5em;
+    // padding-right: 0.75em;
+    margin-bottom: 0.5em;
+    // I would rather the dark function bar be as wide as possible
+    // display: inline-block;
+    background: $accent-background;
+    color: $accent-foreground;
+    border-left: 0.25em solid $accent-foreground;
+
+    .property {
+        margin-right: 0.5em;
     }
-    dt {
-        background: $secondary-background;
-        color: $secondary-foreground;
-        padding: 0.5em;
-        padding-right: 0.75em;
-        margin-bottom: 1em;
-        display: inline-block;
+}
 
-        .property {
-            margin-right: 0.5em;
-        }
+code {
+    background: $accent-background;
+    color: $accent-foreground;
+    padding: 0px;
+}
 
-        code {
-            background: $secondary-background;
-            color: $secondary-foreground;
-            font-weight: bold;
-            padding: 0px;
-        }
-    }
+// Add extra space before each major section, e.g.
+// a function, method, property, class, etc.
+// but not the first of those.
+.py:not(:first-of-type) {
+    margin-top: 1em;
+}
 
-    dl dt {
-        background: $accent-background;
-        color: $accent-foreground;
-        border-left: 0.25em solid $accent-foreground;
+.method {
+    background: $highlight-background;
+    padding-bottom: 0.25em;
+}
 
-        code {
-            background: $accent-background;
-            color: $accent-foreground;
-        }
-    }
+.sig {
+    background: $secondary-background;
+    color: $secondary-foreground;
 }
