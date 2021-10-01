@@ -1,7 +1,6 @@
 from datetime import datetime
 
 
-extensions = []
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
