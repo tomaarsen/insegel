@@ -12,7 +12,7 @@ exclude_patterns = ['_build']
 html_theme = 'nltk_theme'
 
 def setup(app):
-    app.add_html_theme("nltk_theme", "insegel")
+    app.add_html_theme("nltk_theme", "nltk_theme")
 
 html_last_updated_fmt = '%d %b %Y'
 
@@ -23,6 +23,5 @@ releases_unstable_prehistory = True
 extensions = ['sphinx.ext.autodoc']
 
 html_theme_options = {
-    'wending_last_updated': True,
     'navigation_depth': 2
 }

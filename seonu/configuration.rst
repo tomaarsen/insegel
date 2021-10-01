@@ -2,18 +2,6 @@
 Configuration
 =============
 
-Last Updated Format
-===================
-
-By default, Insegel uses the Gregorian calendar to render documentation updated
-dates. To use the `Datárum`_ library to render documentation updated
-dates in the Wending format, a custom variant on the French Revolutionary
-calendar::
-
-    html_theme_options = {
-        'wending_last_updated' : True
-    }
-
 
 Custom Logo
 ===========

@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                 tasks: ['sass:dev', 'shell:build_docs']
             },
             html: {
-                files: 'insegel/{,*/}*.{html, py, conf}',
+                files: 'nltk_theme/{,*/}*.{html, py, conf}',
                 tasks: ['shell:build_docs']
             }
         }
