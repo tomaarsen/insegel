@@ -9,7 +9,10 @@ project = u'Insegel'
 
 exclude_patterns = ['_build']
 
-html_theme = 'insegel'
+html_theme = 'nltk_theme'
+
+def setup(app):
+    app.add_html_theme("nltk_theme", "insegel")
 
 html_last_updated_fmt = '%d %b %Y'
 
