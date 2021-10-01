@@ -1,3 +1,1 @@
-Sphinx==1.6.5
-sphinxprettysearchresults==0.3.2
-insegel==1.2.0
+Sphinx==4.2.0
