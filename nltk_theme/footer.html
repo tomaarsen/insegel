@@ -13,9 +13,9 @@
                 </li>
             {% endif %}
 
-            {% if commit %}
+            {% if github_user and github_repo and version %}
                 <li class="footer-element">
-                    <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/commit/{{commit}}">{{ commit }}</a>
+                    <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/tree/{{version}}">{{ version }}</a>
                 </li>
             {% endif %}
 
