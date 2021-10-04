@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-__version__ = '1.2.0'
+__version__ = '1.3.0'
 __version_full__ = __version__
 
 def get_path():
@@ -13,7 +13,7 @@ def get_path():
 
 
 def update_context(app, pagename, templatename, context, doctree):
-    context['insegel_version'] = __version_full__
+    context['nltk_theme_version'] = __version_full__
 
 def setup(app):
     # add_html_theme is new in Sphinx 1.6+
