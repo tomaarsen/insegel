@@ -30,12 +30,15 @@ h3 {
 a {
     text-decoration: none;
     color: inherit;
-    font-weight: 500;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.25s;
 
     &.headerlink {
         border-bottom: 0;
+    }
+
+    &:not(h1 > &) {
+        font-weight: 500;
     }
 }
 

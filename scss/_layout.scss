@@ -14,6 +14,7 @@
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+    align-items: flex-start;
 
     @media screen and (max-width: $max-width-small) {
         display: block;
@@ -45,7 +46,9 @@
 #side-menu-container {
     width: 300px;
     margin-right: 2em;
-    position: relative;
+    // Make the Search and TOC sticky - works only if TOC is small enough.
+    position: sticky;
+    top: 0;
 
     #side-menu {
         padding: 2em;

@@ -87,12 +87,14 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.25s;
 }
 a.headerlink {
   border-bottom: 0;
+}
+a:not(h1 > a) {
+  font-weight: 500;
 }
 
 a:hover:not(.headerlink) {
@@ -211,6 +213,7 @@ table tbody tr:nth-of-type(odd) code:not(.xref) {
   display: flex;
   width: 100%;
   flex-direction: row-reverse;
+  align-items: flex-start;
 }
 @media screen and (max-width: 880px) {
   #content-container {
@@ -240,7 +243,8 @@ table tbody tr:nth-of-type(odd) code:not(.xref) {
 #side-menu-container {
   width: 300px;
   margin-right: 2em;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 #side-menu-container #side-menu {
   padding: 2em;
