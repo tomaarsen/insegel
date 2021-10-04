@@ -36,11 +36,13 @@
   <div id="nltk-theme-container">
     <header>
       <div id="logo-container">
+        <a href="{{ pathto(master_doc) }}">
           {% if logo %}
-          <a href="{{ pathto(master_doc) }}"><img src="{{ pathto('_static/' + logo, 1) }}"></a>
+          <img src="{{ pathto('_static/' + logo, 1) }}">
           {% else %}
           <h1>{{ project }}</h1>
           {% endif %}
+        </a>  
       </div>
       <div id="project-container">
         {% if logo %}
