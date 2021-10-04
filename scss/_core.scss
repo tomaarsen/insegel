@@ -99,7 +99,7 @@ table thead th {
 }
 
 table th, table td {
-    padding: 0.5em;
+    padding: 0.25em 0.5em;
 }
 
 table tbody tr:nth-of-type(odd) {
@@ -112,15 +112,19 @@ pre code {
     overflow-x: auto;
 }
 
+// Set the background color to be an accent, unless it's an xref
+code:not(.xref) {
+    background-color: $accent-background;
+}
+
 code {
     max-width: 100%;
-    padding: 2px;
+    padding: 1px 2px;
     font-family: $monospace-font-stack;
-    background-color: $accent-background;
     color: $accent-foreground;
 }
 
-table tbody tr:nth-of-type(odd) code {
+table tbody tr:nth-of-type(odd) code:not(.xref) {
     background-color: $primary-background;
     color: $primary-foreground;
 }
