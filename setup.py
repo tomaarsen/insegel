@@ -3,13 +3,14 @@ from setuptools import setup
 
 setup(
     name='nltk_theme',
-    version='2.0.0',
+    version='2.0.1',
     url='https://github.com/tomaarsen/nltk_theme',
     license='MIT',
     author='Mika Naylor (Autophagy), Tom Aarsen',
     author_email='mail@autophagy.io',
     description='Clean, minimalist Sphinx theme for NLTK, based on Insegel',
     long_description=open('README.md', encoding='utf-8').read(),
+    long_description_content_type='text/markdown',
     zip_safe=False,
     packages=['nltk_theme'],
     package_data={'nltk_theme': [
