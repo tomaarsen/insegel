@@ -10,6 +10,7 @@ Information about each NLTK release.
 .. toctree::
     :maxdepth: 1
 
+    2.0.1
     2.0.0
 
 ``nltk_theme`` is forked from Insegel at version ``1.2.0``. To see releases before then, visit https://insegel.readthedocs.io/en/latest/.
