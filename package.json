@@ -1,17 +1,17 @@
 {
-  "name": "insegel",
-  "version": "0.1.0",
-  "description": "Clean, minimalist Sphinx theme for deploying on ReadTheDocs",
+  "name": "nltk_theme",
+  "version": "2.0.0",
+  "description": "Clean, minimalist Sphinx theme for NLTK, based on Insegel",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Autophagy/insegel.git"
+    "url": "git+https://github.com/tomaarsen/nltk_theme.git"
   },
-  "author": "Mika Naylor (Autophagy)",
+  "author": "Mika Naylor (Autophagy), Tom Aarsen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Autophagy/insegel/issues"
+    "url": "https://github.com/tomaarsen/nltk_theme/issues"
   },
-  "homepage": "https://github.com/Autophagy/insegel#readme",
+  "homepage": "https://github.com/tomaarsen/nltk_theme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
