@@ -65,9 +65,6 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
@@ -103,6 +100,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
-# sphinx stuff
-doc/_build/
