@@ -1,0 +1,7 @@
+=====
+2.0.2
+=====
+
+Release Date // 06 Oct 2021
+
+- Remove additional margin below the side-menu.

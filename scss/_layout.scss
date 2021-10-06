@@ -52,8 +52,9 @@
 
     #side-menu {
         padding: 2em;
-        // Margin needed so that the RTD credits do not overlap
-        margin-bottom: 5em;
+        // Margin is needed so that the RTD credits do not overlap,
+        // However, we don't need the RTD credits, as NLTK hosts seperately
+        // margin-bottom: 5em;
     }
 
     #rtd-credit {
