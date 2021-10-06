@@ -1,6 +1,8 @@
 # NLTK Theme
 
-NLTK Theme is a [Sphinx](https://www.sphinx-doc.org/en/master/) theme forked from the wonderful [Insegel](https://github.com/autophagy/insegel/), designed for the [NLTK](https://github.com/nltk/nltk) documentation. The theme can be previewed over at www.tomaarsen.com/nltk.
+NLTK Theme is a [Sphinx](https://www.sphinx-doc.org/en/master/) theme forked from the wonderful [Insegel](https://github.com/autophagy/insegel/), designed for the [NLTK](https://github.com/nltk/nltk) documentation. The theme can be previewed over at [tomaarsen.com/nltk](https://www.tomaarsen.com/nltk).
+
+![theme_screenshot](https://user-images.githubusercontent.com/37621491/136219826-7e7a2326-8afb-4890-addf-62588f1a14c9.png)
 
 ---
 
