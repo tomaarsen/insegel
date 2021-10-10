@@ -1,6 +1,6 @@
 {
   "name": "nltk_theme",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Clean, minimalist Sphinx theme for NLTK, based on Insegel",
   "repository": {
     "type": "git",
