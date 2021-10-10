@@ -1,0 +1,8 @@
+=====
+2.0.2
+=====
+
+Release Date // 10 Oct 2021
+
+- Moved menu to the header instead of the footer, for mobile screens.
+- Renamed "Search..." to "Search"
