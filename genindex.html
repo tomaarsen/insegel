@@ -37,36 +37,30 @@
         <h1>Documentation</h1>
         
       </div>
+
+      <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
+
+      <script type="text/javascript">
+        $("#menu-toggle").click(function() {
+          $("#menu-toggle").toggleClass("toggled");
+          $("#side-menu-container").slideToggle(300);
+        });
+      </script>
     </header>
 
     <div id="content-container">
-
-      <div id="main-content-container">
-        <div id="main-content" role="main">
-          
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
-</div>
-
-
-        </div>
-      </div>
 
       <div id="side-menu-container">
 
         <div id="search" role="search">
         <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-            <input type="text" name="q" placeholder="Search..." />
+            <input type="text" name="q" placeholder="Search" />
             <input type="hidden" name="check_keywords" value="yes" />
             <input type="hidden" name="area" value="default" />
         </form>
 </div>
 
         <div id="side-menu" role="navigation">
-
           
   
     
@@ -99,11 +93,23 @@
 
   
 
-
         </div>
 
         
+      </div>
 
+      <div id="main-content-container">
+        <div id="main-content" role="main">
+          
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ 
+</div>
+
+
+        </div>
       </div>
 
     </div>
@@ -121,7 +127,7 @@
 
             
                 <li class="footer-element">
-                    06 Oct 2021
+                    10 Oct 2021
                 </li>
             
         </ul>
@@ -130,19 +136,8 @@
 
         <div id="credit">
             created with <a href="http://sphinx-doc.org/">Sphinx</a> and <a href="https://github.com/tomaarsen/nltk_theme">NLTK Theme</a>
-
         </div>
     </div>
-
-    <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
-
-    <script type="text/javascript">
-      $("#menu-toggle").click(function() {
-        $("#menu-toggle").toggleClass("toggled");
-        $("#side-menu-container").slideToggle(300);
-      });
-    </script>
-
 </footer> 
 
 </div>

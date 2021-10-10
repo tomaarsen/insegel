@@ -38,45 +38,30 @@
         <h1>Documentation</h1>
         
       </div>
+
+      <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
+
+      <script type="text/javascript">
+        $("#menu-toggle").click(function() {
+          $("#menu-toggle").toggleClass("toggled");
+          $("#side-menu-container").slideToggle(300);
+        });
+      </script>
     </header>
 
     <div id="content-container">
-
-      <div id="main-content-container">
-        <div id="main-content" role="main">
-          
-  <section id="release-notes">
-<h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
-<p>Information about each NLTK release.</p>
-<section id="x">
-<h2>2.X<a class="headerlink" href="#x" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="2.0.2.html">2.0.2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2.0.1.html">2.0.1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2.0.0.html">2.0.0</a></li>
-</ul>
-</div>
-<p><code class="docutils literal notranslate"><span class="pre">nltk_theme</span></code> is forked from Insegel at version <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code>. To see releases before then, visit <a class="reference external" href="https://insegel.readthedocs.io/en/latest/">https://insegel.readthedocs.io/en/latest/</a>.</p>
-</section>
-</section>
-
-
-        </div>
-      </div>
 
       <div id="side-menu-container">
 
         <div id="search" role="search">
         <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-            <input type="text" name="q" placeholder="Search..." />
+            <input type="text" name="q" placeholder="Search" />
             <input type="hidden" name="check_keywords" value="yes" />
             <input type="hidden" name="area" value="default" />
         </form>
 </div>
 
         <div id="side-menu" role="navigation">
-
           
   
     
@@ -109,11 +94,32 @@
 
   
 
-
         </div>
 
         
+      </div>
 
+      <div id="main-content-container">
+        <div id="main-content" role="main">
+          
+  <section id="release-notes">
+<h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
+<p>Information about each NLTK release.</p>
+<section id="x">
+<h2>2.X<a class="headerlink" href="#x" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2.0.2.html">2.0.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2.0.1.html">2.0.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2.0.0.html">2.0.0</a></li>
+</ul>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">nltk_theme</span></code> is forked from Insegel at version <code class="docutils literal notranslate"><span class="pre">1.2.0</span></code>. To see releases before then, visit <a class="reference external" href="https://insegel.readthedocs.io/en/latest/">https://insegel.readthedocs.io/en/latest/</a>.</p>
+</section>
+</section>
+
+
+        </div>
       </div>
 
     </div>
@@ -133,7 +139,7 @@
 
             
                 <li class="footer-element">
-                    06 Oct 2021
+                    10 Oct 2021
                 </li>
             
         </ul>
@@ -142,19 +148,8 @@
 
         <div id="credit">
             created with <a href="http://sphinx-doc.org/">Sphinx</a> and <a href="https://github.com/tomaarsen/nltk_theme">NLTK Theme</a>
-
         </div>
     </div>
-
-    <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
-
-    <script type="text/javascript">
-      $("#menu-toggle").click(function() {
-        $("#menu-toggle").toggleClass("toggled");
-        $("#side-menu-container").slideToggle(300);
-      });
-    </script>
-
 </footer> 
 
 </div>

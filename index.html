@@ -38,9 +38,66 @@
         <h1>Documentation</h1>
         
       </div>
+
+      <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
+
+      <script type="text/javascript">
+        $("#menu-toggle").click(function() {
+          $("#menu-toggle").toggleClass("toggled");
+          $("#side-menu-container").slideToggle(300);
+        });
+      </script>
     </header>
 
     <div id="content-container">
+
+      <div id="side-menu-container">
+
+        <div id="search" role="search">
+        <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+            <input type="text" name="q" placeholder="Search" />
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+        </form>
+</div>
+
+        <div id="side-menu" role="navigation">
+          
+  
+    
+  
+  
+    <p class="caption" role="heading"><span class="caption-text">Using The Theme</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#via-the-repo">Via the Repo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#custom-logo">Custom Logo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#sidebar-depth">Sidebar Depth</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="release_notes/index.html">Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="release_notes/index.html#x">2.X</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.2.html">2.0.2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.1.html">2.0.1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.0.html">2.0.0</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  
+
+        </div>
+
+        
+      </div>
 
       <div id="main-content-container">
         <div id="main-content" role="main">
@@ -82,57 +139,6 @@ The theme itself can be deployed anywhere, but has specific enhancements for hos
         </div>
       </div>
 
-      <div id="side-menu-container">
-
-        <div id="search" role="search">
-        <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-            <input type="text" name="q" placeholder="Search..." />
-            <input type="hidden" name="check_keywords" value="yes" />
-            <input type="hidden" name="area" value="default" />
-        </form>
-</div>
-
-        <div id="side-menu" role="navigation">
-
-          
-  
-    
-  
-  
-    <p class="caption" role="heading"><span class="caption-text">Using The Theme</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installation.html#via-the-repo">Via the Repo</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#custom-logo">Custom Logo</a></li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html#sidebar-depth">Sidebar Depth</a></li>
-</ul>
-</li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="release_notes/index.html">Release Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="release_notes/index.html#x">2.X</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.2.html">2.0.2</a></li>
-<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.1.html">2.0.1</a></li>
-<li class="toctree-l3"><a class="reference internal" href="release_notes/2.0.0.html">2.0.0</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-  
-
-
-        </div>
-
-        
-
-      </div>
-
     </div>
 
 <footer>
@@ -150,7 +156,7 @@ The theme itself can be deployed anywhere, but has specific enhancements for hos
 
             
                 <li class="footer-element">
-                    06 Oct 2021
+                    10 Oct 2021
                 </li>
             
         </ul>
@@ -159,19 +165,8 @@ The theme itself can be deployed anywhere, but has specific enhancements for hos
 
         <div id="credit">
             created with <a href="http://sphinx-doc.org/">Sphinx</a> and <a href="https://github.com/tomaarsen/nltk_theme">NLTK Theme</a>
-
         </div>
     </div>
-
-    <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
-
-    <script type="text/javascript">
-      $("#menu-toggle").click(function() {
-        $("#menu-toggle").toggleClass("toggled");
-        $("#side-menu-container").slideToggle(300);
-      });
-    </script>
-
 </footer> 
 
 </div>

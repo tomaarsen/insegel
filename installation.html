@@ -38,46 +38,30 @@
         <h1>Documentation</h1>
         
       </div>
+
+      <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
+
+      <script type="text/javascript">
+        $("#menu-toggle").click(function() {
+          $("#menu-toggle").toggleClass("toggled");
+          $("#side-menu-container").slideToggle(300);
+        });
+      </script>
     </header>
 
     <div id="content-container">
-
-      <div id="main-content-container">
-        <div id="main-content" role="main">
-          
-  <section id="installation">
-<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<section id="via-the-repo">
-<h2>Via the Repo<a class="headerlink" href="#via-the-repo" title="Permalink to this headline">¶</a></h2>
-<p>To use the <code class="docutils literal notranslate"><span class="pre">nltk_theme</span></code> theme from the Github repo, you can install via pip:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">nltk_theme</span>
-</pre></div>
-</div>
-<p>Or, you can add it to your documentations’ pip requirements file.
-You can then set Sphinx to use the theme via:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;nltk_theme&#39;</span>
-</pre></div>
-</div>
-<p>within your documentations <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
-</section>
-</section>
-
-
-        </div>
-      </div>
 
       <div id="side-menu-container">
 
         <div id="search" role="search">
         <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-            <input type="text" name="q" placeholder="Search..." />
+            <input type="text" name="q" placeholder="Search" />
             <input type="hidden" name="check_keywords" value="yes" />
             <input type="hidden" name="area" value="default" />
         </form>
 </div>
 
         <div id="side-menu" role="navigation">
-
           
   
     
@@ -110,11 +94,33 @@ You can then set Sphinx to use the theme via:</p>
 
   
 
-
         </div>
 
         
+      </div>
 
+      <div id="main-content-container">
+        <div id="main-content" role="main">
+          
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<section id="via-the-repo">
+<h2>Via the Repo<a class="headerlink" href="#via-the-repo" title="Permalink to this headline">¶</a></h2>
+<p>To use the <code class="docutils literal notranslate"><span class="pre">nltk_theme</span></code> theme from the Github repo, you can install via pip:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">nltk_theme</span>
+</pre></div>
+</div>
+<p>Or, you can add it to your documentations’ pip requirements file.
+You can then set Sphinx to use the theme via:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;nltk_theme&#39;</span>
+</pre></div>
+</div>
+<p>within your documentations <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
+</section>
+</section>
+
+
+        </div>
       </div>
 
     </div>
@@ -134,7 +140,7 @@ You can then set Sphinx to use the theme via:</p>
 
             
                 <li class="footer-element">
-                    06 Oct 2021
+                    10 Oct 2021
                 </li>
             
         </ul>
@@ -143,19 +149,8 @@ You can then set Sphinx to use the theme via:</p>
 
         <div id="credit">
             created with <a href="http://sphinx-doc.org/">Sphinx</a> and <a href="https://github.com/tomaarsen/nltk_theme">NLTK Theme</a>
-
         </div>
     </div>
-
-    <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
-
-    <script type="text/javascript">
-      $("#menu-toggle").click(function() {
-        $("#menu-toggle").toggleClass("toggled");
-        $("#side-menu-container").slideToggle(300);
-      });
-    </script>
-
 </footer> 
 
 </div>

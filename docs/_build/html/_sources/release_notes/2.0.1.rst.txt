@@ -1,7 +1,0 @@
-=====
-2.0.1
-=====
-
-Release Date // 06 Oct 2021
-
-- Set description type to Markdown for PyPI upload.
