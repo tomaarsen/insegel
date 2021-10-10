@@ -51,24 +51,25 @@
         <h1>Documentation</h1>
         {% endif %}
       </div>
+
+      <a id="menu-toggle" class="fa fa-bars" aria-hidden="true"></a>
+
+      <script type="text/javascript">
+        $("#menu-toggle").click(function() {
+          $("#menu-toggle").toggleClass("toggled");
+          $("#side-menu-container").slideToggle(300);
+        });
+      </script>
     </header>
 
     <div id="content-container">
-
-      <div id="main-content-container">
-        <div id="main-content" role="main">
-          {% block body %}{% endblock %}
-        </div>
-      </div>
 
       <div id="side-menu-container">
 
         {% include "searchinput.html" %}
 
         <div id="side-menu" role="navigation">
-
           {% include "menu.html" %}
-
         </div>
 
         {% if READTHEDOCS %}
@@ -76,7 +77,12 @@
             Free document hosting provided by <a href="https://readthedocs.org">Read the Docs</a>.
           </div>
         {% endif %}
+      </div>
 
+      <div id="main-content-container">
+        <div id="main-content" role="main">
+          {% block body %}{% endblock %}
+        </div>
       </div>
 
     </div>

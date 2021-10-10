@@ -2,6 +2,17 @@ header {
     padding-top: 2em;
     display: flex;
 
+    a#menu-toggle {
+        display: none;
+        opacity: 1;
+        font-size: 32px;
+        cursor: pointer;
+
+        &.toggled {
+            color: $accent-background;
+        }
+    }
+
     #logo-container {
         width: 300px;
         padding-left: 2em;
@@ -30,5 +41,9 @@ header {
     @media screen and (max-width: $max-width-small) {
         text-align: center;
         display: block;
+
+        a#menu-toggle {
+            display: block;
+        }
     }
 }

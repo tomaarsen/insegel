@@ -13,7 +13,6 @@
 #content-container {
     display: flex;
     width: 100%;
-    flex-direction: row-reverse;
     align-items: flex-start;
 
     @media screen and (max-width: $max-width-small) {

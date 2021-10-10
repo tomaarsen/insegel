@@ -9,17 +9,6 @@ footer {
         width: 100%;
     }
 
-    a#menu-toggle {
-        display: none;
-        opacity: 1;
-        font-size: 32px;
-        cursor: pointer;
-
-        &.toggled {
-            color: $accent-background;
-        }
-    }
-
     ul#build-details {
         list-style: none;
         display: flex;
@@ -42,10 +31,5 @@ footer {
         #footer-info {
             display: block;
         }
-
-        a#menu-toggle {
-            display: block;
-        }
     }
-
 }
