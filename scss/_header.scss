@@ -43,7 +43,12 @@ header {
         display: block;
 
         a#menu-toggle {
-            display: block;
+            // inline display shows the menu toggler, as opposed to none.
+            // We don't use block as that extends the entire width of the page.
+            display: inline;
+            // Pad to the size a little bit, as we want the clickable area
+            // and the corresponding underline to be a bit wider.
+            padding: 0em 0.25em;
         }
     }
 }
