@@ -1,0 +1,8 @@
+=====
+2.0.4
+=====
+
+Release Date // 13 Oct 2021
+
+- Menu toggler hover no longer extends for the width of the entire screen on mobile.
+- The Table of Contents is no longer sticky on mobile.
