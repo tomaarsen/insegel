@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='nltk_theme',
-    version='2.0.4',
+    version='2.0.4.post1',
     url='https://github.com/tomaarsen/nltk_theme',
     license='MIT',
     author='Mika Naylor (Autophagy), Tom Aarsen',
