@@ -7,7 +7,7 @@ setup(
     url='https://github.com/tomaarsen/nltk_theme',
     license='MIT',
     author='Mika Naylor (Autophagy), Tom Aarsen',
-    author_email='mail@autophagy.io',
+    author_email='cubiegamedev@gmail.com',
     description='Clean, minimalist Sphinx theme for NLTK, based on Insegel',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
