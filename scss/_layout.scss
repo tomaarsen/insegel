@@ -70,6 +70,8 @@
         margin-right: 0;
         width: 100%;
         display: none;
+        // Don't use a sticky menu if we're on mobile.
+        position: static;
 
         #side-menu {
             margin-bottom: 0;
