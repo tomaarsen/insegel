@@ -1,0 +1,7 @@
+=====
+2.0.5
+=====
+
+Release Date // 18 Oct 2021
+
+- Enforce horizontal scrolling on wide code blocks, as opposed to line wrapping
