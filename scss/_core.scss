@@ -84,6 +84,8 @@ pre {
     color: $accent-foreground;
     padding: 1em 2em;
     margin-bottom: 1em;
+    // Allow horizontal overflow with scrollbar
+    overflow-x: auto;
 }
 
 img {

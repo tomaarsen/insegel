@@ -22,7 +22,12 @@
 
 #main-content-container {
     flex: 1;
-    max-width: 100%;
+    // Grow starting from width 0
+    width: 0;
+
+    @media screen and (max-width: $max-width-small) {
+        width: inherit;
+    }
 }
 
 #main-content-container, #side-menu-container {
@@ -214,8 +219,4 @@ h1, h2, h3, h4, h5, h6, dl dt, p.caption {
 
 .figure {
     margin-bottom: 1em;
-}
-
-div.highlight > pre {
-    white-space: pre-wrap;
 }
