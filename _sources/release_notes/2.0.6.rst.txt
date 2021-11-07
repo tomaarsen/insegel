@@ -1,0 +1,7 @@
+=====
+2.0.6
+=====
+
+Release Date // 7 Nov 2021
+
+- Only make ``dt`` stand out if they're children of a ``.field-list``. 
