@@ -6,14 +6,9 @@ dd {
     // }
 }
 
-dt {
-    // background: $secondary-background;
-    // color: $secondary-foreground;
+.field-list > dt {
     padding: 0.5em;
-    // padding-right: 0.75em;
     margin-bottom: 0.5em;
-    // I would rather the dark function bar be as wide as possible
-    // display: inline-block;
     background: $accent-background;
     color: $accent-foreground;
     border-left: 0.25em solid $accent-foreground;
@@ -38,4 +33,10 @@ dt {
 .sig {
     background: $secondary-background;
     color: $secondary-foreground;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+
+    .property {
+        margin-right: 0.5em;
+    }
 }
